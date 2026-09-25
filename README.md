@@ -1,16 +1,34 @@
-# React + Vite
+# Uncut Movie Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uncut is a responsive movie search application built with React. It fetches a collection of classic movies from a public API and allows users to search for movies by title as they type.
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Uncut Movie Search preview](./public/readme.png)
 
-## React Compiler
+## Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Fetches live movie data from a public API
+- Displays movie titles and posters
+- Searches movies by title
+- Updates search results while the user types
+- Shows the total number of matching movies
+- Displays a loading message while fetching data
+- Displays an error message if the request fails
+- Shows a message when no movies match the search
+- Uses a placeholder poster when a movie image cannot load
+- Includes a responsive layout for different screen sizes
+- Includes card hover effects and a custom gradient design
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- JavaScript
+- CSS
+- React Bootstrap
+- Vite
+- Sample APIs
+
+## API
+
+Movie data is provided by [Sample APIs - Classic Movies](https://api.sampleapis.com/movies/classic).
